@@ -12,28 +12,19 @@ public class Main2Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
     }
-
     public void Previous(View view) {
         Intent intent = new Intent(Main2Activity.this, MainActivity.class);
         startActivity(intent);
     }
-
-
     public void Next(View view) {
         Intent intent = new Intent(Main2Activity.this, Main3Activity.class);
         startActivity(intent);
     }
-
     public void clickButton(View view) {
-
-        if (view.getId() == R.id.imageButton2) {
+        if (view.getId() == R.id.previous) {
             Previous(view);
-        } else if (view.getId() == R.id.imageButton) {
+        } else if (view.getId() == R.id.next) {
             Next(view);
         }
-
-
     }
-
-
 }

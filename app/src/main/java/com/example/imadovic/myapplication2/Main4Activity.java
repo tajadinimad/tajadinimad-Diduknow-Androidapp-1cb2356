@@ -25,9 +25,9 @@ public class Main4Activity extends AppCompatActivity {
 
     public void clickButton(View view) {
 
-        if (view.getId() == R.id.imageButton2) {
+        if (view.getId() == R.id.previous) {
             Previous(view);
-        } else if (view.getId() == R.id.imageButton) {
+        } else if (view.getId() == R.id.next) {
             Next(view);
         }
     }
