@@ -6,7 +6,6 @@
     android:orientation="vertical"
     tools:context="com.example.imadovic.myapplication2.Main4Activity">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
@@ -39,7 +38,6 @@
                 android:background="@drawable/image3" />
 
         </RelativeLayout>
-
     </LinearLayout>
 
     <LinearLayout
@@ -67,6 +65,5 @@
             android:layout_alignParentBottom="true"
             android:background="@drawable/next"
             android:onClick="clickButton" />
-
     </LinearLayout>
 </LinearLayout>
